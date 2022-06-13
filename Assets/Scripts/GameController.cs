@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+ using UnityEngine.UI;
 using TMPro;
 
 public class GameController : MonoBehaviour
@@ -35,6 +36,13 @@ public class GameController : MonoBehaviour
 
           GameObject causeText = GameObject.FindGameObjectWithTag("cause_1");
             causeText.GetComponent<TextMeshProUGUI>().text = "?";
+      
+        Toggle toggle1 = GameObject.FindGameObjectWithTag("check_1").GetComponent<Toggle>();
+        toggle1.isOn = false;
+ 
+        Toggle toggle2 = GameObject.FindGameObjectWithTag("check_2").GetComponent<Toggle>();
+        toggle2.isOn = false;
+
     }
 
 
@@ -47,7 +55,10 @@ public class GameController : MonoBehaviour
 
         GameObject causeText = GameObject.FindGameObjectWithTag("cause_1");
         causeText.GetComponent<TextMeshProUGUI>().text = "Broken Gutter";
-        
+
+        Toggle toggle1 = GameObject.FindGameObjectWithTag("check_1").GetComponent<Toggle>();
+        toggle1.isOn = true;
+
     }
 
 
@@ -61,6 +72,9 @@ public class GameController : MonoBehaviour
         GameObject causeText = GameObject.FindGameObjectWithTag("fault_1");
         causeText.GetComponent<TextMeshProUGUI>().text = "Damp on walls";
         
+         Toggle toggle2 = GameObject.FindGameObjectWithTag("check_2").GetComponent<Toggle>();
+        toggle2.isOn = true;
+
     }
 
 

@@ -6,6 +6,8 @@ TagManager:
   tags:
   - fault_1
   - cause_1
+  - check_1
+  - check_2
   layers:
   - Default
   - TransparentFX
