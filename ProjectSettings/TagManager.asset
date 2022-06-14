@@ -8,6 +8,8 @@ TagManager:
   - cause_1
   - check_1
   - check_2
+  - startCanvas
+  - surveyCanvas
   layers:
   - Default
   - TransparentFX

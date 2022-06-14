@@ -50,4 +50,14 @@ public class DrainPipeInteraction : MonoBehaviour
             GetComponent<Renderer>().material = SelectedGutterMaterial;
         }
     }
+
+
+       public void Reset(){
+
+         GetComponent<Renderer>().material = gutterMaterial;
+         itemFound = false;
+
+    }
+
+
 }

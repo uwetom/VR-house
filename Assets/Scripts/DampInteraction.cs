@@ -49,4 +49,11 @@ public class DampInteraction : MonoBehaviour
             GetComponent<Renderer>().material = SelectedMaterial;
         }
     }
+
+    public void Reset(){
+
+         GetComponent<Renderer>().material = originalMaterial;
+         itemFound = false;
+
+    }
 }
