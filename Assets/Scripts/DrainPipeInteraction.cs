@@ -26,7 +26,7 @@ public class DrainPipeInteraction : MonoBehaviour
     public void DrainPipeHover(){
         //Debug.Log("Drain Pipe hover");
         
-        if(!itemFound){
+        if(!itemFound && gt.currentGameState == GameController.gameStates.SURVEY){
             GetComponent<Renderer>().material = SelectedGutterMaterial;
         }
     }
@@ -34,14 +34,14 @@ public class DrainPipeInteraction : MonoBehaviour
     public void DrainPipeExitHover(){
         //Debug.Log("Drain Pipe exit");
         
-        if(!itemFound){
+        if(!itemFound && gt.currentGameState == GameController.gameStates.SURVEY){
             GetComponent<Renderer>().material = gutterMaterial;
         }
     }
 
     public void DrainPipeSelected(){
       
-        if(!itemFound){
+        if(!itemFound && gt.currentGameState == GameController.gameStates.SURVEY){
             gt.gutterFound();
 
             GetComponent<AudioSource>().Play();

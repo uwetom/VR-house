@@ -26,21 +26,21 @@ public class DampInteraction : MonoBehaviour
     public void Hover(){
         //Debug.Log("Drain Pipe hover");
         
-        if(!itemFound){
+        if(!itemFound && gt.currentGameState == GameController.gameStates.SURVEY){
             GetComponent<Renderer>().material = SelectedMaterial;
         }
     }
 
     public void ExitHover(){
        
-        if(!itemFound){
+        if(!itemFound && gt.currentGameState == GameController.gameStates.SURVEY){
             GetComponent<Renderer>().material = originalMaterial;
         }
     }
 
     public void Selected(){
       
-        if(!itemFound){
+        if(!itemFound && gt.currentGameState == GameController.gameStates.SURVEY){
             gt.dampFound();
 
             GetComponent<AudioSource>().Play();

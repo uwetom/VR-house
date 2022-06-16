@@ -14,8 +14,8 @@ public class GameController : MonoBehaviour
     private int foundIssues = 0;
     private int totalIssues = 2;
     // Start is called before the first frame update
-    private enum gameStates { START, SURVEY, END };
-    private gameStates currentGameState = gameStates.START;
+    public enum gameStates { START, SURVEY, END };
+    public gameStates currentGameState = gameStates.START;
     private GameObject startCanvas;
     private GameObject surveyCanvas;
     private GameObject endCanvas;
@@ -40,7 +40,7 @@ public class GameController : MonoBehaviour
         surveyCanvas.GetComponent<Canvas>().enabled = false;
         endCanvas.GetComponent<Canvas>().enabled = false;
 
-        timerTextBox = GameObject.FindGameObjectWithTag("TimmerText");
+        timerTextBox = GameObject.FindGameObjectWithTag("timmerText");
         EndtimerTextBox = GameObject.FindGameObjectWithTag("endTimmerText"); 
     }
 
