@@ -16,5 +16,9 @@ public class ClipboardInteraction : MonoBehaviour
         gt.resetGame();
     }
 
+      public void StartButtonClicked(){
+        gt.startSurvey();
+    }
+
 
 }
