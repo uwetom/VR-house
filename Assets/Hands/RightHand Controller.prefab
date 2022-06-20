@@ -422,6 +422,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2828796575546635708, guid: 7a6157cef10f04e45933d8b362a43742, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3138947076403686792, guid: 7a6157cef10f04e45933d8b362a43742, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -464,6 +468,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3138947076403686792, guid: 7a6157cef10f04e45933d8b362a43742, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8878524212361026405, guid: 7a6157cef10f04e45933d8b362a43742, type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8878524212361026405, guid: 7a6157cef10f04e45933d8b362a43742, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
