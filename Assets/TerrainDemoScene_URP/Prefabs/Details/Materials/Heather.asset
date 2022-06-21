@@ -135,14 +135,14 @@ Material:
     - Vector1_f46ed9607e984836a16fb226b0b8a203: 0
     - Vector1_f46ed9607e984836a16fb226b0b8a203_1: 0
     - Vector1_f88d9ae619ee48f485d69bc04006250f: 0.02
-    - Wind_Blast: 0.1
-    - Wind_Intensity: 0.2
-    - Wind_Ripples: 0.05
-    - Wind_Speed: 1
-    - Wind_Turbulence: 1
+    - Wind_Blast: 0
+    - Wind_Intensity: 0
+    - Wind_Ripples: 0
+    - Wind_Speed: 0
+    - Wind_Turbulence: 0
     - Wind_Turbulence_1: 0
-    - Wind_Wavelength: 1
-    - Wind_Yaw: 65
+    - Wind_Wavelength: 0
+    - Wind_Yaw: 650
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 1
     - _AlphaCutoffEnable: 1

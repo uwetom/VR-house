@@ -11,7 +11,9 @@ public class WalkScript : MonoBehaviour {
  
  // Update is called once per frame
  void Update () {
-        if (cc.isGrounded == true && cc.velocity.magnitude > 2f && GetComponent<AudioSource>().isPlaying == false)
+
+        Debug.Log(cc.velocity.magnitude);
+        if (cc.velocity.magnitude > 1f && GetComponent<AudioSource>().isPlaying == false)
         {
             GetComponent<AudioSource>().Play();
         }
