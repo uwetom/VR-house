@@ -100,11 +100,11 @@ Material:
     - Vector1_a5b8b09028ce49a39f4d090894c89e22: 0.75
     - Vector1_a6983181c8dc4691ba6a28a34c4223a6: 2
     - Wind_Blast: 0
-    - Wind_Intensity: 0.1
+    - Wind_Intensity: 0
     - Wind_Ripples: 0
-    - Wind_Speed: 0.1
-    - Wind_Turbulence: 0.1
-    - Wind_Wavelength: 1
+    - Wind_Speed: 0
+    - Wind_Turbulence: 0
+    - Wind_Wavelength: 0
     - Wind_Yaw: 0
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 1
