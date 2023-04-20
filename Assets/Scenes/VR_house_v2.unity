@@ -7146,7 +7146,7 @@ MonoBehaviour:
   m_Camera: {fileID: 472084909}
   m_OriginBaseGameObject: {fileID: 1013964431}
   m_CameraFloorOffsetObject: {fileID: 521639711}
-  m_RequestedTrackingOriginMode: 1
+  m_RequestedTrackingOriginMode: 2
   m_CameraYOffset: 1.5
 --- !u!4 &1013964433
 Transform:
@@ -15951,6 +15951,26 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5453178639848839618, guid: 7e6d54e47c60e534c9ad527cf72a9bcc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5453178639848839618, guid: 7e6d54e47c60e534c9ad527cf72a9bcc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5453178639848839618, guid: 7e6d54e47c60e534c9ad527cf72a9bcc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5453178639848839618, guid: 7e6d54e47c60e534c9ad527cf72a9bcc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5453178639848839618, guid: 7e6d54e47c60e534c9ad527cf72a9bcc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
     - target: {fileID: 5738138728942147405, guid: 7e6d54e47c60e534c9ad527cf72a9bcc, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
@@ -16050,6 +16070,10 @@ PrefabInstance:
     - target: {fileID: 7982245656743770344, guid: 7e6d54e47c60e534c9ad527cf72a9bcc, type: 3}
       propertyPath: m_Name
       value: LeftHand Controller
+      objectReference: {fileID: 0}
+    - target: {fileID: 7982245656743770344, guid: 7e6d54e47c60e534c9ad527cf72a9bcc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7982245656743770344, guid: 7e6d54e47c60e534c9ad527cf72a9bcc, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -16515,6 +16539,26 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4748352253428341277, guid: 54ecd3ca4b1afc647bb27e16f0f507c8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748352253428341277, guid: 54ecd3ca4b1afc647bb27e16f0f507c8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748352253428341277, guid: 54ecd3ca4b1afc647bb27e16f0f507c8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748352253428341277, guid: 54ecd3ca4b1afc647bb27e16f0f507c8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748352253428341277, guid: 54ecd3ca4b1afc647bb27e16f0f507c8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
     - target: {fileID: 4807445155521656171, guid: 54ecd3ca4b1afc647bb27e16f0f507c8, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
@@ -16568,6 +16612,10 @@ PrefabInstance:
       value: RightHand Controller
       objectReference: {fileID: 0}
     - target: {fileID: 7668027675252114870, guid: 54ecd3ca4b1afc647bb27e16f0f507c8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668027675252114870, guid: 54ecd3ca4b1afc647bb27e16f0f507c8, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -16612,6 +16660,42 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7668027675252114871, guid: 54ecd3ca4b1afc647bb27e16f0f507c8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668027675709891336, guid: 54ecd3ca4b1afc647bb27e16f0f507c8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.0761
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668027675709891336, guid: 54ecd3ca4b1afc647bb27e16f0f507c8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0176
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668027675709891336, guid: 54ecd3ca4b1afc647bb27e16f0f507c8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668027675709891336, guid: 54ecd3ca4b1afc647bb27e16f0f507c8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668027675709891336, guid: 54ecd3ca4b1afc647bb27e16f0f507c8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668027675709891336, guid: 54ecd3ca4b1afc647bb27e16f0f507c8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668027675709891336, guid: 54ecd3ca4b1afc647bb27e16f0f507c8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668027675709891336, guid: 54ecd3ca4b1afc647bb27e16f0f507c8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668027675709891336, guid: 54ecd3ca4b1afc647bb27e16f0f507c8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
